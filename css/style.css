@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-img {
+    background-image: url("	https://nifty.bold-themes.com/square/wp-content/uploads/sites/3/2020/08/hero_home_01.jpg");
+  
+    height: 1270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+a.nav-link.dropdown-toggle {
+    color: white;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+li.nav-item.dropdown {
+    padding: 0 30px;
+}
+
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9); /* Black with a little bit see-through */
+  }
+  
+  /* The content */
+  .overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+  }
+  
+  /* Close button */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .overlay .closebtn:hover {
+    color: #ccc;
+  }
+  
+  /* Style the search field */
+  .overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+  }
+  
+  .overlay input[type=text]:hover {
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  .overlay button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .overlay button:hover {
+    background: #bbb;
+  }
+
+  .b-heading {
+    font-size: 120px;
+    color: white;
+}
+.bnr{
+    padding: 170px 19px;
+}
+.b-pera {
+    color: white;
+    font-size: 32px;
+}
+.sec2{
+    background-color: #f7f7f5;
+}
+
+.sec2-head {
+    text-align: center;
+    font-size: 50px;
+}
+.sec2-pera{
+    text-align: center;
+    font-size: 25px;
+}
+.sec2-top{
+    padding: 100px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-title {
+    font-size: 40px;
+}
+.card-text {
+    font-size: 18px;
+}
